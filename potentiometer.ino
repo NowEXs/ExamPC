@@ -4,13 +4,13 @@
 const char WIFI_SSID[] = "2212";          // เปลี่ยนเป็น WiFi SSID ของคุณ
 const char WIFI_PASSWORD[] = "tipchaya";    // เปลี่ยนเป็น WiFi password ของคุณ
 
-const char MQTT_BROKER_ADDRESS[] = "mqtt-dashboard.com";  // เปลี่ยนเป็นที่อยู่ของ MQTT broker
+const char MQTT_BROKER_ADDRESS[] = "phycom.it.kmitl.ac.th";  // เปลี่ยนเป็นที่อยู่ของ MQTT broker
 const int MQTT_PORT = 1883;
 const char MQTT_CLIENT_ID[] = "66070285";    // ตั้งค่า Client ID ตามที่ต้องการ
 const char MQTT_USERNAME[] = "";             // ไม่ต้องใส่ถ้าไม่ต้องการ
 const char MQTT_PASSWORD[] = "";             // ไม่ต้องใส่ถ้าไม่ต้องการ
 
-const char PUBLISH_TOPIC[] = "phycom";       // เปลี่ยนตามที่ต้องการ
+const char PUBLISH_TOPIC[] = "66070285";       // เปลี่ยนตามที่ต้องการ
 const char SUBSCRIBE_TOPIC[] = "phycom";     // เปลี่ยนตามที่ต้องการ
 
 const int POTENTIOMETER_PIN = A0;            // ขา Analog สำหรับ potentiometer
