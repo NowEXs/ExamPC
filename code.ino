@@ -49,7 +49,7 @@ void loop()
   }
   delay(5);
 }
-// --------------
+// --------------Color LED Switch:
 const int BTN_RED = 4;
 const int BTN_GREEN = 5;
 const int BTN_BLUE = 6;
@@ -90,7 +90,7 @@ void change_stat(int btn_pin, int led_pin, bool* status) {
     delay(100);
   }
 }
-//---------------
+//--------------- Analog LED Fading:
 const int ledPin1 = 5;  // เลือก PWM Pin สำหรับ LED1
 const int ledPin2 = 6; // เลือก PWM Pin สำหรับ LED2
 
